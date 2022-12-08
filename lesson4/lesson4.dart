@@ -39,9 +39,9 @@ int fifth(List array){
 //Задание 6
 String sixth(bool a){
   if(a == true)
-    return 'Переменная имеет значение true';
+    return 'Переменная имеет значение $a';
   else
-     return 'Переменная имеет значение false';
+     return 'Переменная имеет значение $a';
 }
 
 //Задание 7
