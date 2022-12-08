@@ -3,7 +3,7 @@ void main(){
 
   print(qvadrat(a: 5));
   print(summa(a: 21, b: 17));
-  print(three(12, 7, 3));
+  print(three(12, 4, 2));
   print(seconds(a: 5));
   print(fifth(array));
   print(sixth(true));
@@ -22,7 +22,7 @@ int summa({required int a, required int b}){
 
 //Задание 3
 double three(int a, int b, int c){
-  double result = a-b/c;
+  double result = (a-b)/c;
   return result;
 }
 
